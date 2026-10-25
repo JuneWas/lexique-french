@@ -1,0 +1,35 @@
+name: LEXIQUE automated tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: Node.js tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Verify vocabulary and 30-day learning logic
+        run: node tests/v13.cjs
+
+      - name: Run integration tests
+        run: node tests/integration.cjs
+
+      - name: Run legacy validation
+        run: node check.cjs
