@@ -31,5 +31,8 @@ jobs:
       - name: Run integration tests
         run: node tests/integration.cjs
 
+      - name: Verify continuous speech playback
+        run: node tests/bulk-speech.cjs
+
       - name: Run legacy validation
         run: node check.cjs
