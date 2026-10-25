@@ -1,0 +1,2992 @@
+{
+  "version": 1,
+  "words": [
+    {
+      "id": "lac-001",
+      "termFr": "imaginaire",
+      "termJa": "想像界",
+      "category": "三界",
+      "shortDefinition": "像や同一化に関わる次元。",
+      "explanation": "自分や他者をまとまりのある像として捉える働きに関わります。鏡像段階や自我形成と結びつけて読むと、意味を追いやすくなります。",
+      "pitfalls": "単なる空想や、現実に影響しないものという意味ではありません。",
+      "relatedIds": [
+        "lac-002",
+        "lac-003",
+        "lac-007",
+        "lac-020"
+      ],
+      "sourceSection": "2.1.1",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "imaginaire",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "想像界"
+        }
+      ]
+    },
+    {
+      "id": "lac-002",
+      "termFr": "symbolique",
+      "termJa": "象徴界",
+      "category": "三界",
+      "shortDefinition": "言語・法・差異の関係からなる秩序。",
+      "explanation": "個人に先立って存在する言語や親族関係、規則などの秩序を指します。主体はその関係の中で位置を与えられます。",
+      "pitfalls": "個々のシンボルや象徴表現だけを指す語ではありません。",
+      "relatedIds": [
+        "lac-001",
+        "lac-003",
+        "lac-004",
+        "lac-008"
+      ],
+      "sourceSection": "2.1.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "symbolique",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "象徴界"
+        }
+      ]
+    },
+    {
+      "id": "lac-003",
+      "termFr": "réel",
+      "termJa": "現実界",
+      "category": "三界",
+      "shortDefinition": "意味や像による把握に収まりきらない次元。",
+      "explanation": "特に中期以降の議論では、象徴化の限界や不可能性と結びつけて読めます。ただし初期から後期まで同じ定義で固定できる概念ではありません。",
+      "pitfalls": "日常的な「現実」réalité と同一視しないこと。",
+      "relatedIds": [
+        "lac-001",
+        "lac-002",
+        "lac-014"
+      ],
+      "sourceSection": "2.1.3",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "réel",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "現実界"
+        }
+      ]
+    },
+    {
+      "id": "lac-004",
+      "termFr": "signifiant",
+      "termJa": "シニフィアン",
+      "category": "言語と主体",
+      "shortDefinition": "他のシニフィアンとの差異・連鎖の中で働く要素。",
+      "explanation": "語や音、文字などは、単独で固定した意味を運ぶだけでなく、他の要素との関係によって働きます。主体と無意識を考えるための中核概念です。",
+      "pitfalls": "一つの語と一つの意味が固定的に対応すると考えないこと。",
+      "relatedIds": [
+        "lac-005",
+        "lac-006",
+        "lac-017"
+      ],
+      "sourceSection": "2.1.2",
+      "aliases": [
+        "能記",
+        "記号表現"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "signifiant",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "シニフィアン"
+        }
+      ]
+    },
+    {
+      "id": "lac-005",
+      "termFr": "signifié",
+      "termJa": "シニフィエ",
+      "category": "言語と主体",
+      "shortDefinition": "意味されるもの。",
+      "explanation": "シニフィアンとの関係で考える用語です。ラカンを読むときは、意味が最初から完成してあると想定せず、連鎖の中でどう成立するかに注目します。",
+      "pitfalls": "物体そのものや、発音される音と同一視しないこと。",
+      "relatedIds": [
+        "lac-004",
+        "lac-002"
+      ],
+      "sourceSection": "2.1.2",
+      "aliases": [
+        "所記",
+        "記号内容"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "signifié",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "シニフィエ"
+        }
+      ]
+    },
+    {
+      "id": "lac-006",
+      "termFr": "sujet",
+      "termJa": "主体",
+      "category": "言語と主体",
+      "shortDefinition": "自我に一致せず、言語によって分裂した主体。",
+      "explanation": "意識している自分がすべてを把握しているわけではありません。語ることと語られた内容のずれ、無意識の働きに注意して読むための概念です。",
+      "pitfalls": "自律的な個人や自我 moi の単なる言い換えではありません。",
+      "relatedIds": [
+        "lac-007",
+        "lac-004",
+        "lac-017"
+      ],
+      "sourceSection": "2.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "sujet",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "主体"
+        }
+      ]
+    },
+    {
+      "id": "lac-007",
+      "termFr": "moi",
+      "termJa": "自我",
+      "category": "言語と主体",
+      "shortDefinition": "像への同一化を通して形成される自己。",
+      "explanation": "「これが私だ」と捉えるまとまりのある自己像に関わります。ラカンはそれを無意識の主体と区別します。",
+      "pitfalls": "主体 sujet と区別して読みます。",
+      "relatedIds": [
+        "lac-006",
+        "lac-009",
+        "lac-020"
+      ],
+      "sourceSection": "2.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "moi",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "自我"
+        }
+      ]
+    },
+    {
+      "id": "lac-008",
+      "termFr": "Autre",
+      "termJa": "大他者",
+      "category": "言語と主体",
+      "shortDefinition": "言語や象徴的秩序の場としての他者。",
+      "explanation": "発話が向けられる場、言語や法が成り立つ場として読むことができます。個々の人物がその位置を担う場合もあります。",
+      "pitfalls": "特定の権力者一人を指すとは限りません。小文字の autre と区別します。",
+      "relatedIds": [
+        "lac-009",
+        "lac-002",
+        "lac-011"
+      ],
+      "sourceSection": "2.3",
+      "aliases": [
+        "大文字の他者",
+        "大文字の他者A"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "Autre",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "大他者"
+        }
+      ]
+    },
+    {
+      "id": "lac-009",
+      "termFr": "autre",
+      "termJa": "小他者",
+      "category": "言語と主体",
+      "shortDefinition": "自分に似た相手や鏡像的な他者。",
+      "explanation": "自分と相手を似た者として捉える関係や、競争・同一化を考える際の語です。想像的な関係に着目して読みます。",
+      "pitfalls": "大他者 Autre や、後に精緻化される対象aとそのまま同一視しません。",
+      "relatedIds": [
+        "lac-008",
+        "lac-007",
+        "lac-020"
+      ],
+      "sourceSection": "2.3",
+      "aliases": [
+        "小文字の他者"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "autre",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "小他者"
+        }
+      ]
+    },
+    {
+      "id": "lac-010",
+      "termFr": "besoin",
+      "termJa": "欲求",
+      "category": "欲望と享楽",
+      "shortDefinition": "身体的な必要。",
+      "explanation": "要求・欲望と比較するための出発点です。空腹などの必要が、他者に向けて言葉にされるとき何が加わるかに注目します。",
+      "pitfalls": "欲望 désir の単なる同義語ではありません。",
+      "relatedIds": [
+        "lac-011",
+        "lac-012"
+      ],
+      "sourceSection": "2.4.1",
+      "aliases": [
+        "必要"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "besoin",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "欲求"
+        }
+      ]
+    },
+    {
+      "id": "lac-011",
+      "termFr": "demande",
+      "termJa": "要求",
+      "category": "欲望と享楽",
+      "shortDefinition": "他者に向けられ、愛の要求をも含む訴え。",
+      "explanation": "必要を満たしてほしいという訴えには、応答や愛を求める次元も含まれます。そのため物を与えるだけで要求のすべてが尽くされるとは限りません。",
+      "pitfalls": "明示された注文の内容だけに還元しないこと。",
+      "relatedIds": [
+        "lac-010",
+        "lac-012",
+        "lac-008"
+      ],
+      "sourceSection": "2.4.1",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "demande",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "要求"
+        }
+      ]
+    },
+    {
+      "id": "lac-012",
+      "termFr": "désir",
+      "termJa": "欲望",
+      "category": "欲望と享楽",
+      "shortDefinition": "欲求の充足や要求に還元できないもの。",
+      "explanation": "他者や言語との関係で形成され、特定の対象を得ても尽くされない動きとして考えます。要求・欲求と並べて読むと違いが見えます。",
+      "pitfalls": "欲動 pulsion と区別します。単なる「欲しい気持ち」だけではありません。",
+      "relatedIds": [
+        "lac-010",
+        "lac-011",
+        "lac-013",
+        "lac-015"
+      ],
+      "sourceSection": "2.4.1",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "désir",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "欲望"
+        }
+      ]
+    },
+    {
+      "id": "lac-013",
+      "termFr": "pulsion",
+      "termJa": "欲動",
+      "category": "欲望と享楽",
+      "shortDefinition": "対象をめぐる回路の中で満足を得る運動。",
+      "explanation": "特に第XI巻の読解では、対象の獲得だけでなく、反復される回路そのものが満足に関わる点に注目します。",
+      "pitfalls": "生物学的な本能の固定した行動パターンと同一視しないこと。",
+      "relatedIds": [
+        "lac-012",
+        "lac-014",
+        "lac-018"
+      ],
+      "sourceSection": "2.4.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "pulsion",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "欲動"
+        }
+      ]
+    },
+    {
+      "id": "lac-014",
+      "termFr": "jouissance",
+      "termJa": "享楽",
+      "category": "欲望と享楽",
+      "shortDefinition": "快の原理を超え、苦痛とも結びつく満足。",
+      "explanation": "心地よい楽しさだけでは説明できない満足のあり方を考える語です。後期には複数の享楽の区別が重要になるため、巻ごとの文脈を補う必要があります。",
+      "pitfalls": "快 plaisir や、幸福一般の言い換えではありません。",
+      "relatedIds": [
+        "lac-013",
+        "lac-003",
+        "lac-015"
+      ],
+      "sourceSection": "2.4.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "jouissance",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "享楽"
+        }
+      ]
+    },
+    {
+      "id": "lac-015",
+      "termFr": "objet a",
+      "termJa": "対象a",
+      "category": "欲望と享楽",
+      "shortDefinition": "欲望の原因としての対象。",
+      "explanation": "欲しい品物そのものよりも、それを欲しくさせる原因の位置に注目する概念です。この説明は、主として1960年代以降の整理の足がかりです。",
+      "pitfalls": "具体的な所有物や小他者を、そのまま対象aと呼ぶわけではありません。",
+      "relatedIds": [
+        "lac-012",
+        "lac-014",
+        "lac-016"
+      ],
+      "sourceSection": "2.4.3",
+      "aliases": [
+        "objet petit a",
+        "対象小文字a"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "objet petit a",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞句",
+          "meaning": "対象a"
+        }
+      ]
+    },
+    {
+      "id": "lac-016",
+      "termFr": "fantasme",
+      "termJa": "幻想",
+      "category": "欲望と享楽",
+      "shortDefinition": "主体と対象の関係を支え、欲望を方向づける枠組み。",
+      "explanation": "単発の空想だけでなく、自分が対象や他者に対してどこに位置するかを形づくる場面・構造として読みます。",
+      "pitfalls": "単なる誤った考えや、意識的な想像に限定しません。",
+      "relatedIds": [
+        "lac-015",
+        "lac-006",
+        "lac-012"
+      ],
+      "sourceSection": "2.4.3",
+      "aliases": [
+        "ファンタスム"
+      ],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "fantasme",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "幻想"
+        }
+      ]
+    },
+    {
+      "id": "lac-017",
+      "termFr": "inconscient",
+      "termJa": "無意識",
+      "category": "無意識と分析",
+      "shortDefinition": "意識的な自己理解に収まらない、構造をもつ働き。",
+      "explanation": "ラカンは言語との関係を強調します。失言などを単なる失敗として片づけず、発話の連鎖と主体の関わりを読む足がかりになります。",
+      "pitfalls": "思い出していない知識の倉庫や、無秩序な本能だけを指すわけではありません。",
+      "relatedIds": [
+        "lac-004",
+        "lac-006",
+        "lac-019"
+      ],
+      "sourceSection": "2.1.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "inconscient",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "無意識"
+        }
+      ]
+    },
+    {
+      "id": "lac-018",
+      "termFr": "répétition",
+      "termJa": "反復",
+      "category": "無意識と分析",
+      "shortDefinition": "単なる同一の出来事の再現に還元できない繰り返し。",
+      "explanation": "第XI巻では、シニフィアンの反復と現実界との出会いを区別して読むことが重要です。享楽との関連も後の議論で強まります。",
+      "pitfalls": "学習のための意識的な繰り返しとは区別します。",
+      "relatedIds": [
+        "lac-017",
+        "lac-013",
+        "lac-003"
+      ],
+      "sourceSection": "Seminar XI",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "répétition",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "反復"
+        }
+      ]
+    },
+    {
+      "id": "lac-019",
+      "termFr": "transfert",
+      "termJa": "転移",
+      "category": "無意識と分析",
+      "shortDefinition": "分析関係で無意識が現働化すること。",
+      "explanation": "分析家との関係で生じる愛や期待を、単なる好意としてではなく無意識の働きとして捉えます。「知っていると想定された主体」も次の重要語になります。",
+      "pitfalls": "過去の関係の単純なコピーや、分析家への好意だけに還元しません。",
+      "relatedIds": [
+        "lac-017",
+        "lac-008",
+        "lac-012"
+      ],
+      "sourceSection": "Seminar XI",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "transfert",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "転移"
+        }
+      ]
+    },
+    {
+      "id": "lac-020",
+      "termFr": "stade du miroir",
+      "termJa": "鏡像段階",
+      "category": "言語と主体",
+      "shortDefinition": "鏡像への同一化を通じた自我形成の議論。",
+      "explanation": "身体の統一的な像を自分として引き受けることで、自我が形づくられるという議論です。自我のまとまりと疎外が結びつく点に注目します。",
+      "pitfalls": "幼児が鏡を見分ける能力の説明だけに限定しません。",
+      "relatedIds": [
+        "lac-001",
+        "lac-007",
+        "lac-009"
+      ],
+      "sourceSection": "2.2",
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "stade du miroir",
+        "verified": false
+      },
+      "reviewStatus": "読解用草稿・一次資料未照合",
+      "senses": [
+        {
+          "pos": "名詞句",
+          "meaning": "鏡像段階"
+        }
+      ]
+    },
+    {
+      "id": "fou-021",
+      "termFr": "discours",
+      "termJa": "言説",
+      "category": "フーコー読解",
+      "shortDefinition": "語られる内容だけでなく、何を語れるかを定める規則や実践にも注目する語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "discours",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト69行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 69,
+        "characterOffset": 33414,
+        "matched": "discours"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "言説"
+        }
+      ]
+    },
+    {
+      "id": "fou-022",
+      "termFr": "savoir",
+      "termJa": "知",
+      "category": "フーコー読解",
+      "shortDefinition": "ある時代に何を知りうるかを支える知の領域。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "savoir",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト103行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 103,
+        "characterOffset": 49035,
+        "matched": "savoir"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "知"
+        }
+      ]
+    },
+    {
+      "id": "fou-023",
+      "termFr": "connaissance",
+      "termJa": "認識・知識",
+      "category": "フーコー読解",
+      "shortDefinition": "対象についての認識や個別の知識。savoirとの使い分けは文脈による。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "connaissance",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト17行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 17,
+        "characterOffset": 2002,
+        "matched": "connaissance"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "認識・知識"
+        }
+      ]
+    },
+    {
+      "id": "fou-024",
+      "termFr": "pouvoir",
+      "termJa": "権力／〜できる",
+      "category": "フーコー読解",
+      "shortDefinition": "名詞では権力、動詞では可能を表す。まず品詞を見分ける。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "pouvoir",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト13行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 13,
+        "characterOffset": 383,
+        "matched": "pouvoir"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "権力"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "〜できる"
+        }
+      ]
+    },
+    {
+      "id": "fou-025",
+      "termFr": "vérité",
+      "termJa": "真理",
+      "category": "フーコー読解",
+      "shortDefinition": "何が真と認められ、誰が真を語れるかという問題に関わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "vérité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト39行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 39,
+        "characterOffset": 14798,
+        "matched": "vérité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "真理"
+        }
+      ]
+    },
+    {
+      "id": "fou-026",
+      "termFr": "raison",
+      "termJa": "理性・理由",
+      "category": "フーコー読解",
+      "shortDefinition": "理性という概念のほか、根拠や理由の意味にもなる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "raison",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト49行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 49,
+        "characterOffset": 22133,
+        "matched": "raison"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "理性・理由"
+        }
+      ]
+    },
+    {
+      "id": "fou-027",
+      "termFr": "folie",
+      "termJa": "狂気",
+      "category": "フーコー読解",
+      "shortDefinition": "理性との区分、排除、医学的な対象化を読む際の基本語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "folie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト163行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 163,
+        "characterOffset": 62813,
+        "matched": "folie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "狂気"
+        }
+      ]
+    },
+    {
+      "id": "fou-028",
+      "termFr": "maladie",
+      "termJa": "病気・疾患",
+      "category": "フーコー読解",
+      "shortDefinition": "身体や精神の病と、それを捉える知の関係に関わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "maladie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト275行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 275,
+        "characterOffset": 113999,
+        "matched": "maladie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "病気・疾患"
+        }
+      ]
+    },
+    {
+      "id": "fou-029",
+      "termFr": "clinique",
+      "termJa": "臨床／臨床の",
+      "category": "フーコー読解",
+      "shortDefinition": "名詞にも形容詞にもなる。医学的な観察や診療の場に関わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "clinique",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト23行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 23,
+        "characterOffset": 5784,
+        "matched": "clinique"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "臨床"
+        },
+        {
+          "pos": "形容詞",
+          "meaning": "臨床の"
+        }
+      ]
+    },
+    {
+      "id": "fou-030",
+      "termFr": "regard",
+      "termJa": "まなざし・視線",
+      "category": "フーコー読解",
+      "shortDefinition": "見る行為と、対象を知りうるものとして捉える仕方。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "regard",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト181行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 181,
+        "characterOffset": 69042,
+        "matched": "regard"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "まなざし・視線"
+        }
+      ]
+    },
+    {
+      "id": "fou-031",
+      "termFr": "expérience",
+      "termJa": "経験・実験",
+      "category": "フーコー読解",
+      "shortDefinition": "生きられる経験、歴史的な経験の形、実験などを文脈で区別する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "expérience",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト23行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 23,
+        "characterOffset": 5773,
+        "matched": "expérience"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "経験・実験"
+        }
+      ]
+    },
+    {
+      "id": "fou-032",
+      "termFr": "existence",
+      "termJa": "実存・存在",
+      "category": "フーコー読解",
+      "shortDefinition": "人間の存在のあり方、または何かが存在すること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "existence",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト9行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 9,
+        "characterOffset": 168,
+        "matched": "Existence"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "実存・存在"
+        }
+      ]
+    },
+    {
+      "id": "fou-033",
+      "termFr": "langage",
+      "termJa": "言語・言語活動",
+      "category": "フーコー読解",
+      "shortDefinition": "個別の言語だけでなく、語りや記号による表現の働きを指す。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "langage",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト37行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 37,
+        "characterOffset": 13388,
+        "matched": "langage"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "言語・言語活動"
+        }
+      ]
+    },
+    {
+      "id": "fou-034",
+      "termFr": "représentation",
+      "termJa": "表象・再現",
+      "category": "フーコー読解",
+      "shortDefinition": "対象を思考や記号のうちに表すこと。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "représentation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト401行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 401,
+        "characterOffset": 177809,
+        "matched": "Représentation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "表象・再現"
+        }
+      ]
+    },
+    {
+      "id": "fou-035",
+      "termFr": "signe",
+      "termJa": "記号・徴候",
+      "category": "フーコー読解",
+      "shortDefinition": "意味を示す記号のほか、病気などの徴候にも用いられる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "signe",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト55行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 55,
+        "characterOffset": 24046,
+        "matched": "signe"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "記号・徴候"
+        }
+      ]
+    },
+    {
+      "id": "fou-036",
+      "termFr": "énoncé",
+      "termJa": "言表",
+      "category": "フーコー読解",
+      "shortDefinition": "単なる文の意味だけでなく、その発言が成立する条件を問う際の語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "énoncé",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト629行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 629,
+        "characterOffset": 280720,
+        "matched": "énoncé"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "言表"
+        }
+      ]
+    },
+    {
+      "id": "fou-037",
+      "termFr": "énonciation",
+      "termJa": "発話・言表行為",
+      "category": "フーコー読解",
+      "shortDefinition": "言葉が実際に述べられる行為や出来事。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "énonciation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト629行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 629,
+        "characterOffset": 280967,
+        "matched": "énonciation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "発話・言表行為"
+        }
+      ]
+    },
+    {
+      "id": "fou-038",
+      "termFr": "archive",
+      "termJa": "アルシーヴ・文書資料",
+      "category": "フーコー読解",
+      "shortDefinition": "資料の集積という意味に加え、言表の成立を規定する仕組みを指す場合がある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "archive",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト1341行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 1341,
+        "characterOffset": 620003,
+        "matched": "archive"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "アルシーヴ・文書資料"
+        }
+      ]
+    },
+    {
+      "id": "fou-039",
+      "termFr": "archéologie",
+      "termJa": "考古学",
+      "category": "フーコー読解",
+      "shortDefinition": "知や言説が成立する歴史的条件を分析する方法を指すことがある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "archéologie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト557行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 557,
+        "characterOffset": 253952,
+        "matched": "archéologie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "考古学"
+        }
+      ]
+    },
+    {
+      "id": "fou-040",
+      "termFr": "généalogie",
+      "termJa": "系譜学",
+      "category": "フーコー読解",
+      "shortDefinition": "現在を自明視せず、対立や偶然を含む歴史的な形成をたどる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "généalogie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト1512行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 1512,
+        "characterOffset": 682989,
+        "matched": "généalogie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "系譜学"
+        }
+      ]
+    },
+    {
+      "id": "fou-041",
+      "termFr": "histoire",
+      "termJa": "歴史",
+      "category": "フーコー読解",
+      "shortDefinition": "過去の出来事とその記述。語の対象範囲を文脈で確かめる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "histoire",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト15行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 15,
+        "characterOffset": 1246,
+        "matched": "histoire"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "歴史"
+        }
+      ]
+    },
+    {
+      "id": "fou-042",
+      "termFr": "événement",
+      "termJa": "出来事",
+      "category": "フーコー読解",
+      "shortDefinition": "起こった事柄。歴史の連続性を問い直す際にも重要な語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "événement",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト147行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 147,
+        "characterOffset": 53847,
+        "matched": "événement"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "出来事"
+        }
+      ]
+    },
+    {
+      "id": "fou-043",
+      "termFr": "discontinuité",
+      "termJa": "非連続性",
+      "category": "フーコー読解",
+      "shortDefinition": "歴史や知の変化を、滑らかな連続だけでは捉えないための語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "discontinuité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト277行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 277,
+        "characterOffset": 116785,
+        "matched": "discontinuité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "非連続性"
+        }
+      ]
+    },
+    {
+      "id": "fou-044",
+      "termFr": "rupture",
+      "termJa": "断絶・切断",
+      "category": "フーコー読解",
+      "shortDefinition": "それまでの関係や秩序が途切れること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "rupture",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト225行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 225,
+        "characterOffset": 85528,
+        "matched": "rupture"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "断絶・切断"
+        }
+      ]
+    },
+    {
+      "id": "fou-045",
+      "termFr": "origine",
+      "termJa": "起源",
+      "category": "フーコー読解",
+      "shortDefinition": "物事の始まり。起源を求める説明自体が批判の対象になることもある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "origine",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト45行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 45,
+        "characterOffset": 18972,
+        "matched": "origine"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "起源"
+        }
+      ]
+    },
+    {
+      "id": "fou-046",
+      "termFr": "émergence",
+      "termJa": "出現・生成",
+      "category": "フーコー読解",
+      "shortDefinition": "あるものが歴史的な関係のなかで現れてくること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "émergence",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト181行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 181,
+        "characterOffset": 69177,
+        "matched": "émergence"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "出現・生成"
+        }
+      ]
+    },
+    {
+      "id": "fou-047",
+      "termFr": "formation",
+      "termJa": "形成",
+      "category": "フーコー読解",
+      "shortDefinition": "成立する過程、または形成されたまとまり。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "formation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト55行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 55,
+        "characterOffset": 25528,
+        "matched": "formation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "形成"
+        }
+      ]
+    },
+    {
+      "id": "fou-048",
+      "termFr": "pratique",
+      "termJa": "実践",
+      "category": "フーコー読解",
+      "shortDefinition": "人々が実際に行う活動や、その反復的な仕方。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "pratique",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1954-1969.txt、テキスト347行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 347,
+        "characterOffset": 148852,
+        "matched": "pratique"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "実践"
+        }
+      ]
+    },
+    {
+      "id": "fou-049",
+      "termFr": "problématisation",
+      "termJa": "問題化",
+      "category": "フーコー読解",
+      "shortDefinition": "ある事柄が、思考し問い直すべき問題として構成されること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "problématisation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト3897行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 3897,
+        "characterOffset": 1337881,
+        "matched": "problématisation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "問題化"
+        }
+      ]
+    },
+    {
+      "id": "fou-050",
+      "termFr": "critique",
+      "termJa": "批判・批評",
+      "category": "フーコー読解",
+      "shortDefinition": "当然視される知や統治の仕方を問い直す営み。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "critique",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト117行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 117,
+        "characterOffset": 52286,
+        "matched": "Critique"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "批判・批評"
+        }
+      ]
+    },
+    {
+      "id": "fou-051",
+      "termFr": "dispositif",
+      "termJa": "装置・配置",
+      "category": "フーコー読解",
+      "shortDefinition": "制度、言説、空間などの要素が結びついて働く配置。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "dispositif",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト3801行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 3801,
+        "characterOffset": 1878749,
+        "matched": "dispositif"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "装置・配置"
+        }
+      ]
+    },
+    {
+      "id": "fou-052",
+      "termFr": "institution",
+      "termJa": "制度・施設",
+      "category": "フーコー読解",
+      "shortDefinition": "社会的な仕組み、または学校・病院などの施設。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "institution",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト573行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 573,
+        "characterOffset": 293006,
+        "matched": "institution"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "制度・施設"
+        }
+      ]
+    },
+    {
+      "id": "fou-053",
+      "termFr": "discipline",
+      "termJa": "規律・学問分野",
+      "category": "フーコー読解",
+      "shortDefinition": "身体や行動を整える規律のほか、学問分野を意味する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "discipline",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト15行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 15,
+        "characterOffset": 4910,
+        "matched": "discipline"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "規律・学問分野"
+        }
+      ]
+    },
+    {
+      "id": "fou-054",
+      "termFr": "surveillance",
+      "termJa": "監視",
+      "category": "フーコー読解",
+      "shortDefinition": "行動を見守り、観察し、管理する働き。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "surveillance",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト583行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 583,
+        "characterOffset": 299032,
+        "matched": "Surveillance"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "監視"
+        }
+      ]
+    },
+    {
+      "id": "fou-055",
+      "termFr": "punition",
+      "termJa": "処罰",
+      "category": "フーコー読解",
+      "shortDefinition": "罰を与えることや、その罰。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "punition",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト969行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 969,
+        "characterOffset": 462459,
+        "matched": "punition"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "処罰"
+        }
+      ]
+    },
+    {
+      "id": "fou-056",
+      "termFr": "prison",
+      "termJa": "監獄・刑務所",
+      "category": "フーコー読解",
+      "shortDefinition": "拘禁の施設。刑罰や規律の実践と結びつく。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "prison",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト65行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 65,
+        "characterOffset": 33409,
+        "matched": "prison"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "監獄・刑務所"
+        }
+      ]
+    },
+    {
+      "id": "fou-057",
+      "termFr": "corps",
+      "termJa": "身体",
+      "category": "フーコー読解",
+      "shortDefinition": "権力や知の作用を受ける身体。集団を意味する場合もある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "corps",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト33行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 33,
+        "characterOffset": 14106,
+        "matched": "corps"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "身体"
+        }
+      ]
+    },
+    {
+      "id": "fou-058",
+      "termFr": "norme",
+      "termJa": "規範・基準",
+      "category": "フーコー読解",
+      "shortDefinition": "正常や適切さを判定する基準。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "norme",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト631行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 631,
+        "characterOffset": 326175,
+        "matched": "norme"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "規範・基準"
+        }
+      ]
+    },
+    {
+      "id": "fou-059",
+      "termFr": "normalisation",
+      "termJa": "規格化・正常化",
+      "category": "フーコー読解",
+      "shortDefinition": "一定の基準に沿って人や行動を整えること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "normalisation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト1665行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1665,
+        "characterOffset": 820274,
+        "matched": "Normalisation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "規格化・正常化"
+        }
+      ]
+    },
+    {
+      "id": "fou-060",
+      "termFr": "examen",
+      "termJa": "試験・検査・審査",
+      "category": "フーコー読解",
+      "shortDefinition": "観察し、評価し、知識として記録する手続き。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "examen",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト307行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 307,
+        "characterOffset": 143470,
+        "matched": "examen"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "試験・検査・審査"
+        }
+      ]
+    },
+    {
+      "id": "fou-061",
+      "termFr": "aveu",
+      "termJa": "告白・自白",
+      "category": "フーコー読解",
+      "shortDefinition": "自分について真実を述べること。宗教・司法などで意味が変わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "aveu",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト1777行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1777,
+        "characterOffset": 887171,
+        "matched": "aveu"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "告白・自白"
+        }
+      ]
+    },
+    {
+      "id": "fou-062",
+      "termFr": "enquête",
+      "termJa": "調査・探究",
+      "category": "フーコー読解",
+      "shortDefinition": "事実や真実を確定するための調査。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "enquête",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト675行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 675,
+        "characterOffset": 345689,
+        "matched": "enquête"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "調査・探究"
+        }
+      ]
+    },
+    {
+      "id": "fou-063",
+      "termFr": "justice",
+      "termJa": "正義・司法",
+      "category": "フーコー読解",
+      "shortDefinition": "正しさの理念と、裁判などを担う制度の双方を指す。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "justice",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト33行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 33,
+        "characterOffset": 14547,
+        "matched": "justice"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "正義・司法"
+        }
+      ]
+    },
+    {
+      "id": "fou-064",
+      "termFr": "droit",
+      "termJa": "権利・法",
+      "category": "フーコー読解",
+      "shortDefinition": "個人の権利、法の体系などを文脈で区別する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "droit",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト7行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 7,
+        "characterOffset": 528,
+        "matched": "droit"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "権利・法"
+        }
+      ]
+    },
+    {
+      "id": "fou-065",
+      "termFr": "loi",
+      "termJa": "法・法律",
+      "category": "フーコー読解",
+      "shortDefinition": "行動を規定する法や規則。一般的な法則を指す場合もある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "loi",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト185行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 185,
+        "characterOffset": 81627,
+        "matched": "loi"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "法・法律"
+        }
+      ]
+    },
+    {
+      "id": "fou-066",
+      "termFr": "souveraineté",
+      "termJa": "主権",
+      "category": "フーコー読解",
+      "shortDefinition": "支配の正当性や権限のあり方に関わる語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "souveraineté",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト447行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 447,
+        "characterOffset": 219086,
+        "matched": "souveraineté"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "主権"
+        }
+      ]
+    },
+    {
+      "id": "fou-067",
+      "termFr": "domination",
+      "termJa": "支配",
+      "category": "フーコー読解",
+      "shortDefinition": "他者に対する優位や従属関係の維持。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "domination",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト85行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 85,
+        "characterOffset": 45748,
+        "matched": "domination"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "支配"
+        }
+      ]
+    },
+    {
+      "id": "fou-068",
+      "termFr": "assujettissement",
+      "termJa": "従属化・主体化",
+      "category": "フーコー読解",
+      "shortDefinition": "従属させることと、一定の主体として形づくることに関わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "assujettissement",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト439行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 439,
+        "characterOffset": 213276,
+        "matched": "assujettissement"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "従属化・主体化"
+        }
+      ]
+    },
+    {
+      "id": "fou-069",
+      "termFr": "résistance",
+      "termJa": "抵抗",
+      "category": "フーコー読解",
+      "shortDefinition": "作用する力や統治に対し、拒み、対抗すること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "résistance",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト283行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 283,
+        "characterOffset": 125943,
+        "matched": "résistance"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "抵抗"
+        }
+      ]
+    },
+    {
+      "id": "fou-070",
+      "termFr": "lutte",
+      "termJa": "闘争",
+      "category": "フーコー読解",
+      "shortDefinition": "対立する力や立場の間の争い。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "lutte",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト177行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 177,
+        "characterOffset": 77297,
+        "matched": "lutte"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "闘争"
+        }
+      ]
+    },
+    {
+      "id": "fou-071",
+      "termFr": "stratégie",
+      "termJa": "戦略",
+      "category": "フーコー読解",
+      "shortDefinition": "複数の行為や関係を、目標や効果との関連で捉える語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "stratégie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト1005行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1005,
+        "characterOffset": 481188,
+        "matched": "stratégie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "戦略"
+        }
+      ]
+    },
+    {
+      "id": "fou-072",
+      "termFr": "rapport",
+      "termJa": "関係・報告",
+      "category": "フーコー読解",
+      "shortDefinition": "権力関係などの関係を表すほか、報告の意味もある。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "rapport",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト29行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 29,
+        "characterOffset": 13184,
+        "matched": "rapport"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "関係・報告"
+        }
+      ]
+    },
+    {
+      "id": "fou-073",
+      "termFr": "force",
+      "termJa": "力",
+      "category": "フーコー読解",
+      "shortDefinition": "作用し、対抗し、関係を変える力。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "force",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1970-1975.txt、テキスト73行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 73,
+        "characterOffset": 37744,
+        "matched": "force"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "力"
+        }
+      ]
+    },
+    {
+      "id": "fou-074",
+      "termFr": "gouvernement",
+      "termJa": "統治・政府",
+      "category": "フーコー読解",
+      "shortDefinition": "政府という組織のほか、人々の行為を導く働きを指す。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "gouvernement",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト249行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 249,
+        "characterOffset": 75480,
+        "matched": "gouvernement"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "統治・政府"
+        }
+      ]
+    },
+    {
+      "id": "fou-075",
+      "termFr": "gouvernementalité",
+      "termJa": "統治性",
+      "category": "フーコー読解",
+      "shortDefinition": "統治の合理性や技術、その歴史的な形を考えるための語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "gouvernementalité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト1557行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1557,
+        "characterOffset": 521827,
+        "matched": "gouvernementalité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "統治性"
+        }
+      ]
+    },
+    {
+      "id": "fou-076",
+      "termFr": "conduite",
+      "termJa": "行為・行状・導き",
+      "category": "フーコー読解",
+      "shortDefinition": "人の振る舞いと、それを導くことの両面に注意する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "conduite",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト77行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 77,
+        "characterOffset": 19956,
+        "matched": "conduite"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "行為・行状・導き"
+        }
+      ]
+    },
+    {
+      "id": "fou-077",
+      "termFr": "population",
+      "termJa": "人口・住民集団",
+      "category": "フーコー読解",
+      "shortDefinition": "統計や行政によって把握され、統治の対象となる集団。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "population",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト363行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 363,
+        "characterOffset": 120969,
+        "matched": "population"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "人口・住民集団"
+        }
+      ]
+    },
+    {
+      "id": "fou-078",
+      "termFr": "sécurité",
+      "termJa": "安全・安全保障",
+      "category": "フーコー読解",
+      "shortDefinition": "危険への対処や、人々の生活を管理する仕組みに関わる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "sécurité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト11行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 11,
+        "characterOffset": 314,
+        "matched": "sécurité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "安全・安全保障"
+        }
+      ]
+    },
+    {
+      "id": "fou-079",
+      "termFr": "territoire",
+      "termJa": "領土・領域",
+      "category": "フーコー読解",
+      "shortDefinition": "支配や統治が及ぶ空間。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "territoire",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト1021行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1021,
+        "characterOffset": 365574,
+        "matched": "territoire"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "領土・領域"
+        }
+      ]
+    },
+    {
+      "id": "fou-080",
+      "termFr": "État",
+      "termJa": "国家",
+      "category": "フーコー読解",
+      "shortDefinition": "政治的な統治組織。小文字のétatは状態の意味にもなる。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "État",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト181行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 181,
+        "characterOffset": 50615,
+        "matched": "État"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "国家"
+        }
+      ]
+    },
+    {
+      "id": "fou-081",
+      "termFr": "société",
+      "termJa": "社会",
+      "category": "フーコー読解",
+      "shortDefinition": "人々の関係や制度からなるまとまり。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "société",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト40行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 40,
+        "characterOffset": 7177,
+        "matched": "Société"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "社会"
+        }
+      ]
+    },
+    {
+      "id": "fou-082",
+      "termFr": "individu",
+      "termJa": "個人・個体",
+      "category": "フーコー読解",
+      "shortDefinition": "一人の人、または区別された一個体。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "individu",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト267行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 267,
+        "characterOffset": 78761,
+        "matched": "individu"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "個人・個体"
+        }
+      ]
+    },
+    {
+      "id": "fou-083",
+      "termFr": "subjectivité",
+      "termJa": "主体性・主観性",
+      "category": "フーコー読解",
+      "shortDefinition": "主体として経験し、自分に関わるあり方。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "subjectivité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト259行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 259,
+        "characterOffset": 77981,
+        "matched": "subjectivité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "主体性・主観性"
+        }
+      ]
+    },
+    {
+      "id": "fou-084",
+      "termFr": "subjectivation",
+      "termJa": "主体化",
+      "category": "フーコー読解",
+      "shortDefinition": "人が一定の主体となっていく過程。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "subjectivation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト303行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 303,
+        "characterOffset": 93822,
+        "matched": "subjectivation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "主体化"
+        }
+      ]
+    },
+    {
+      "id": "fou-085",
+      "termFr": "objectivation",
+      "termJa": "対象化・客体化",
+      "category": "フーコー読解",
+      "shortDefinition": "人や事柄を知識の対象として成立させること。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "objectivation",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト229行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 229,
+        "characterOffset": 68986,
+        "matched": "objectivation"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "対象化・客体化"
+        }
+      ]
+    },
+    {
+      "id": "fou-086",
+      "termFr": "identité",
+      "termJa": "同一性・アイデンティティ",
+      "category": "フーコー読解",
+      "shortDefinition": "自分や他者を同じものとして識別するあり方。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "identité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト105行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 105,
+        "characterOffset": 27429,
+        "matched": "identité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "同一性・アイデンティティ"
+        }
+      ]
+    },
+    {
+      "id": "fou-087",
+      "termFr": "liberté",
+      "termJa": "自由",
+      "category": "フーコー読解",
+      "shortDefinition": "行為の可能性や、自分と他者との関係を変える余地。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "liberté",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト20行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 20,
+        "characterOffset": 4516,
+        "matched": "liberté"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "自由"
+        }
+      ]
+    },
+    {
+      "id": "fou-088",
+      "termFr": "éthique",
+      "termJa": "倫理",
+      "category": "フーコー読解",
+      "shortDefinition": "自分の行為や生き方にどのように関わるかという問題。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "éthique",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト315行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 315,
+        "characterOffset": 97877,
+        "matched": "éthique"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "倫理"
+        }
+      ]
+    },
+    {
+      "id": "fou-089",
+      "termFr": "morale",
+      "termJa": "道徳",
+      "category": "フーコー読解",
+      "shortDefinition": "行為に関する規則や価値。倫理との使い分けに注意する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "morale",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト339行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 339,
+        "characterOffset": 108519,
+        "matched": "morale"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "道徳"
+        }
+      ]
+    },
+    {
+      "id": "fou-090",
+      "termFr": "soi",
+      "termJa": "自己",
+      "category": "フーコー読解",
+      "shortDefinition": "自分自身を指す代名詞。自己との関係を論じる表現で頻出する。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "soi",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト145行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 145,
+        "characterOffset": 38136,
+        "matched": "soi"
+      },
+      "senses": [
+        {
+          "pos": "代名詞",
+          "meaning": "自己"
+        }
+      ]
+    },
+    {
+      "id": "fou-091",
+      "termFr": "souci de soi",
+      "termJa": "自己への配慮",
+      "category": "フーコー読解",
+      "shortDefinition": "自分に注意を向け、生き方を整える実践。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "souci de soi",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト2555行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 2555,
+        "characterOffset": 868909,
+        "matched": "souci de soi"
+      },
+      "senses": [
+        {
+          "pos": "名詞句",
+          "meaning": "自己への配慮"
+        }
+      ]
+    },
+    {
+      "id": "fou-092",
+      "termFr": "technique",
+      "termJa": "技法・技術",
+      "category": "フーコー読解",
+      "shortDefinition": "特定の働きや変化を生むための手続きや方法。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "technique",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト77行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 77,
+        "characterOffset": 21262,
+        "matched": "technique"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "技法・技術"
+        }
+      ]
+    },
+    {
+      "id": "fou-093",
+      "termFr": "ascèse",
+      "termJa": "修練・禁欲的実践",
+      "category": "フーコー読解",
+      "shortDefinition": "自己を変えるための訓練。単なる欲望の抑制に限定しない。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "ascèse",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト1127行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1127,
+        "characterOffset": 397239,
+        "matched": "ascèse"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "修練・禁欲的実践"
+        }
+      ]
+    },
+    {
+      "id": "fou-094",
+      "termFr": "spiritualité",
+      "termJa": "霊性",
+      "category": "フーコー読解",
+      "shortDefinition": "真理への接近と主体の変容との関係を読む際の語。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "spiritualité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト201行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 201,
+        "characterOffset": 58001,
+        "matched": "spiritualité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "霊性"
+        }
+      ]
+    },
+    {
+      "id": "fou-095",
+      "termFr": "sexualité",
+      "termJa": "セクシュアリティ・性",
+      "category": "フーコー読解",
+      "shortDefinition": "性に関する経験、知、規範や実践の領域。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "sexualité",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト181行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 181,
+        "characterOffset": 50967,
+        "matched": "sexualité"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "セクシュアリティ・性"
+        }
+      ]
+    },
+    {
+      "id": "fou-096",
+      "termFr": "plaisir",
+      "termJa": "快楽",
+      "category": "フーコー読解",
+      "shortDefinition": "喜びや楽しみの感覚。欲望や享楽との関係は文脈で読む。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "plaisir",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト413行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 413,
+        "characterOffset": 144555,
+        "matched": "plaisir"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "快楽"
+        }
+      ]
+    },
+    {
+      "id": "fou-097",
+      "termFr": "usage",
+      "termJa": "使用・用法",
+      "category": "フーコー読解",
+      "shortDefinition": "使うこと、用い方、慣行などを指す。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "usage",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト48行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 48,
+        "characterOffset": 10124,
+        "matched": "usage"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "使用・用法"
+        }
+      ]
+    },
+    {
+      "id": "fou-098",
+      "termFr": "vie",
+      "termJa": "生・生命",
+      "category": "フーコー読解",
+      "shortDefinition": "生きること、生命、生活や人生などの意味をもつ。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "vie",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト15行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 15,
+        "characterOffset": 920,
+        "matched": "vie"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "生・生命"
+        }
+      ]
+    },
+    {
+      "id": "fou-099",
+      "termFr": "mort",
+      "termJa": "死",
+      "category": "フーコー読解",
+      "shortDefinition": "生の終わりや死という事態。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "mort",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト24行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 24,
+        "characterOffset": 4920,
+        "matched": "mort"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "死"
+        }
+      ]
+    },
+    {
+      "id": "fou-100",
+      "termFr": "pensée",
+      "termJa": "思考・思想",
+      "category": "フーコー読解",
+      "shortDefinition": "考える働きと、考えられた内容や思想。",
+      "explanation": "",
+      "pitfalls": "",
+      "relatedIds": [],
+      "aliases": [],
+      "audio": {
+        "lang": "fr-FR",
+        "speechText": "pensée",
+        "verified": false
+      },
+      "reviewStatus": "添付本文で語形の出現を確認／訳語・解説は編集草稿",
+      "sourceNote": "参照：フーコー思考集成1980-1988.txt、テキスト71行目付近。行番号は添付テキスト上の位置で、書籍のページではありません。語形の出現確認に基づく選語です。訳語・説明は読解のための編集草稿で、この箇所の逐語訳や引用ではありません。",
+      "sourceEvidence": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 71,
+        "characterOffset": 18284,
+        "matched": "pensée"
+      },
+      "senses": [
+        {
+          "pos": "名詞",
+          "meaning": "思考・思想"
+        }
+      ]
+    }
+  ]
+}

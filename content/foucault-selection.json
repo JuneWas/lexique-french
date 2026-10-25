@@ -1,0 +1,1219 @@
+{
+  "method": "Exact Unicode whole-term matches, case-insensitive except État; hyphenated compounds excluded. Counts are occurrence checks, not lemmatized frequency rankings. References are text line numbers, not print pages. Definitions are editorial drafts.",
+  "sources": [
+    {
+      "name": "フーコー思考集成1954-1969.txt",
+      "sha256": "34bf7babc0edfa5e824b0e6fd7266b2cd29862778b29eecadaf843d1886aee53"
+    },
+    {
+      "name": "フーコー思考集成1970-1975.txt",
+      "sha256": "1d739a2a45d0719ce4e7f6277e2d73043873d0e1a08e6ad048a9ccf566256134"
+    },
+    {
+      "name": "フーコー思考集成1980-1988.txt",
+      "sha256": "ac47453fd7dac76f0fa45bf5e098585fa9cc435816ebc03c5840e728c564c51b"
+    }
+  ],
+  "words": [
+    {
+      "id": "fou-021",
+      "term": "discours",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 581,
+        "フーコー思考集成1970-1975.txt": 409,
+        "フーコー思考集成1980-1988.txt": 146
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 69,
+        "characterOffset": 33414,
+        "matched": "discours"
+      }
+    },
+    {
+      "id": "fou-022",
+      "term": "savoir",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 394,
+        "フーコー思考集成1970-1975.txt": 729,
+        "フーコー思考集成1980-1988.txt": 345
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 103,
+        "characterOffset": 49035,
+        "matched": "savoir"
+      }
+    },
+    {
+      "id": "fou-023",
+      "term": "connaissance",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 141,
+        "フーコー思考集成1970-1975.txt": 340,
+        "フーコー思考集成1980-1988.txt": 114
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 17,
+        "characterOffset": 2002,
+        "matched": "connaissance"
+      }
+    },
+    {
+      "id": "fou-024",
+      "term": "pouvoir",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 138,
+        "フーコー思考集成1970-1975.txt": 1168,
+        "フーコー思考集成1980-1988.txt": 745
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 13,
+        "characterOffset": 383,
+        "matched": "pouvoir"
+      }
+    },
+    {
+      "id": "fou-025",
+      "term": "vérité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 309,
+        "フーコー思考集成1970-1975.txt": 397,
+        "フーコー思考集成1980-1988.txt": 320
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 39,
+        "characterOffset": 14798,
+        "matched": "vérité"
+      }
+    },
+    {
+      "id": "fou-026",
+      "term": "raison",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 172,
+        "フーコー思考集成1970-1975.txt": 148,
+        "フーコー思考集成1980-1988.txt": 247
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 49,
+        "characterOffset": 22133,
+        "matched": "raison"
+      }
+    },
+    {
+      "id": "fou-027",
+      "term": "folie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 263,
+        "フーコー思考集成1970-1975.txt": 390,
+        "フーコー思考集成1980-1988.txt": 144
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 163,
+        "characterOffset": 62813,
+        "matched": "folie"
+      }
+    },
+    {
+      "id": "fou-028",
+      "term": "maladie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 80,
+        "フーコー思考集成1970-1975.txt": 105,
+        "フーコー思考集成1980-1988.txt": 51
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 275,
+        "characterOffset": 113999,
+        "matched": "maladie"
+      }
+    },
+    {
+      "id": "fou-029",
+      "term": "clinique",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 38,
+        "フーコー思考集成1970-1975.txt": 31,
+        "フーコー思考集成1980-1988.txt": 13
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 23,
+        "characterOffset": 5784,
+        "matched": "clinique"
+      }
+    },
+    {
+      "id": "fou-030",
+      "term": "regard",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 174,
+        "フーコー思考集成1970-1975.txt": 81,
+        "フーコー思考集成1980-1988.txt": 42
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 181,
+        "characterOffset": 69042,
+        "matched": "regard"
+      }
+    },
+    {
+      "id": "fou-031",
+      "term": "expérience",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 287,
+        "フーコー思考集成1970-1975.txt": 101,
+        "フーコー思考集成1980-1988.txt": 208
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 23,
+        "characterOffset": 5773,
+        "matched": "expérience"
+      }
+    },
+    {
+      "id": "fou-032",
+      "term": "existence",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 356,
+        "フーコー思考集成1970-1975.txt": 154,
+        "フーコー思考集成1980-1988.txt": 130
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 9,
+        "characterOffset": 168,
+        "matched": "Existence"
+      }
+    },
+    {
+      "id": "fou-033",
+      "term": "langage",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 938,
+        "フーコー思考集成1970-1975.txt": 112,
+        "フーコー思考集成1980-1988.txt": 37
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 37,
+        "characterOffset": 13388,
+        "matched": "langage"
+      }
+    },
+    {
+      "id": "fou-034",
+      "term": "représentation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 85,
+        "フーコー思考集成1970-1975.txt": 37,
+        "フーコー思考集成1980-1988.txt": 15
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 401,
+        "characterOffset": 177809,
+        "matched": "Représentation"
+      }
+    },
+    {
+      "id": "fou-035",
+      "term": "signe",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 168,
+        "フーコー思考集成1970-1975.txt": 37,
+        "フーコー思考集成1980-1988.txt": 51
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 55,
+        "characterOffset": 24046,
+        "matched": "signe"
+      }
+    },
+    {
+      "id": "fou-036",
+      "term": "énoncé",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 38,
+        "フーコー思考集成1970-1975.txt": 14,
+        "フーコー思考集成1980-1988.txt": 2
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 629,
+        "characterOffset": 280720,
+        "matched": "énoncé"
+      }
+    },
+    {
+      "id": "fou-037",
+      "term": "énonciation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 10,
+        "フーコー思考集成1970-1975.txt": 3,
+        "フーコー思考集成1980-1988.txt": 1
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 629,
+        "characterOffset": 280967,
+        "matched": "énonciation"
+      }
+    },
+    {
+      "id": "fou-038",
+      "term": "archive",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 18,
+        "フーコー思考集成1970-1975.txt": 2,
+        "フーコー思考集成1980-1988.txt": 0
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 1341,
+        "characterOffset": 620003,
+        "matched": "archive"
+      }
+    },
+    {
+      "id": "fou-039",
+      "term": "archéologie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 42,
+        "フーコー思考集成1970-1975.txt": 44,
+        "フーコー思考集成1980-1988.txt": 21
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 557,
+        "characterOffset": 253952,
+        "matched": "archéologie"
+      }
+    },
+    {
+      "id": "fou-040",
+      "term": "généalogie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 14,
+        "フーコー思考集成1970-1975.txt": 53,
+        "フーコー思考集成1980-1988.txt": 18
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 1512,
+        "characterOffset": 682989,
+        "matched": "généalogie"
+      }
+    },
+    {
+      "id": "fou-041",
+      "term": "histoire",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 635,
+        "フーコー思考集成1970-1975.txt": 662,
+        "フーコー思考集成1980-1988.txt": 544
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 15,
+        "characterOffset": 1246,
+        "matched": "histoire"
+      }
+    },
+    {
+      "id": "fou-042",
+      "term": "événement",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 49,
+        "フーコー思考集成1970-1975.txt": 138,
+        "フーコー思考集成1980-1988.txt": 65
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 147,
+        "characterOffset": 53847,
+        "matched": "événement"
+      }
+    },
+    {
+      "id": "fou-043",
+      "term": "discontinuité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 26,
+        "フーコー思考集成1970-1975.txt": 12,
+        "フーコー思考集成1980-1988.txt": 6
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 277,
+        "characterOffset": 116785,
+        "matched": "discontinuité"
+      }
+    },
+    {
+      "id": "fou-044",
+      "term": "rupture",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 35,
+        "フーコー思考集成1970-1975.txt": 47,
+        "フーコー思考集成1980-1988.txt": 34
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 225,
+        "characterOffset": 85528,
+        "matched": "rupture"
+      }
+    },
+    {
+      "id": "fou-045",
+      "term": "origine",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 118,
+        "フーコー思考集成1970-1975.txt": 119,
+        "フーコー思考集成1980-1988.txt": 40
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 45,
+        "characterOffset": 18972,
+        "matched": "origine"
+      }
+    },
+    {
+      "id": "fou-046",
+      "term": "émergence",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 19,
+        "フーコー思考集成1970-1975.txt": 25,
+        "フーコー思考集成1980-1988.txt": 8
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 181,
+        "characterOffset": 69177,
+        "matched": "émergence"
+      }
+    },
+    {
+      "id": "fou-047",
+      "term": "formation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 92,
+        "フーコー思考集成1970-1975.txt": 62,
+        "フーコー思考集成1980-1988.txt": 69
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 55,
+        "characterOffset": 25528,
+        "matched": "formation"
+      }
+    },
+    {
+      "id": "fou-048",
+      "term": "pratique",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 155,
+        "フーコー思考集成1970-1975.txt": 208,
+        "フーコー思考集成1980-1988.txt": 206
+      },
+      "reference": {
+        "file": "フーコー思考集成1954-1969.txt",
+        "line": 347,
+        "characterOffset": 148852,
+        "matched": "pratique"
+      }
+    },
+    {
+      "id": "fou-049",
+      "term": "problématisation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 0,
+        "フーコー思考集成1980-1988.txt": 25
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 3897,
+        "characterOffset": 1337881,
+        "matched": "problématisation"
+      }
+    },
+    {
+      "id": "fou-050",
+      "term": "critique",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 128,
+        "フーコー思考集成1970-1975.txt": 118,
+        "フーコー思考集成1980-1988.txt": 132
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 117,
+        "characterOffset": 52286,
+        "matched": "Critique"
+      }
+    },
+    {
+      "id": "fou-051",
+      "term": "dispositif",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 3,
+        "フーコー思考集成1980-1988.txt": 13
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 3801,
+        "characterOffset": 1878749,
+        "matched": "dispositif"
+      }
+    },
+    {
+      "id": "fou-052",
+      "term": "institution",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 14,
+        "フーコー思考集成1970-1975.txt": 94,
+        "フーコー思考集成1980-1988.txt": 60
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 573,
+        "characterOffset": 293006,
+        "matched": "institution"
+      }
+    },
+    {
+      "id": "fou-053",
+      "term": "discipline",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 17,
+        "フーコー思考集成1970-1975.txt": 32,
+        "フーコー思考集成1980-1988.txt": 36
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 15,
+        "characterOffset": 4910,
+        "matched": "discipline"
+      }
+    },
+    {
+      "id": "fou-054",
+      "term": "surveillance",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 11,
+        "フーコー思考集成1970-1975.txt": 88,
+        "フーコー思考集成1980-1988.txt": 12
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 583,
+        "characterOffset": 299032,
+        "matched": "Surveillance"
+      }
+    },
+    {
+      "id": "fou-055",
+      "term": "punition",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 3,
+        "フーコー思考集成1970-1975.txt": 45,
+        "フーコー思考集成1980-1988.txt": 26
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 969,
+        "characterOffset": 462459,
+        "matched": "punition"
+      }
+    },
+    {
+      "id": "fou-056",
+      "term": "prison",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 12,
+        "フーコー思考集成1970-1975.txt": 352,
+        "フーコー思考集成1980-1988.txt": 102
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 65,
+        "characterOffset": 33409,
+        "matched": "prison"
+      }
+    },
+    {
+      "id": "fou-057",
+      "term": "corps",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 179,
+        "フーコー思考集成1970-1975.txt": 324,
+        "フーコー思考集成1980-1988.txt": 165
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 33,
+        "characterOffset": 14106,
+        "matched": "corps"
+      }
+    },
+    {
+      "id": "fou-058",
+      "term": "norme",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 20,
+        "フーコー思考集成1970-1975.txt": 28,
+        "フーコー思考集成1980-1988.txt": 7
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 631,
+        "characterOffset": 326175,
+        "matched": "norme"
+      }
+    },
+    {
+      "id": "fou-059",
+      "term": "normalisation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 24,
+        "フーコー思考集成1980-1988.txt": 13
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1665,
+        "characterOffset": 820274,
+        "matched": "Normalisation"
+      }
+    },
+    {
+      "id": "fou-060",
+      "term": "examen",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 14,
+        "フーコー思考集成1970-1975.txt": 28,
+        "フーコー思考集成1980-1988.txt": 36
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 307,
+        "characterOffset": 143470,
+        "matched": "examen"
+      }
+    },
+    {
+      "id": "fou-061",
+      "term": "aveu",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 11,
+        "フーコー思考集成1970-1975.txt": 28,
+        "フーコー思考集成1980-1988.txt": 39
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1777,
+        "characterOffset": 887171,
+        "matched": "aveu"
+      }
+    },
+    {
+      "id": "fou-062",
+      "term": "enquête",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 8,
+        "フーコー思考集成1970-1975.txt": 142,
+        "フーコー思考集成1980-1988.txt": 16
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 675,
+        "characterOffset": 345689,
+        "matched": "enquête"
+      }
+    },
+    {
+      "id": "fou-063",
+      "term": "justice",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 11,
+        "フーコー思考集成1970-1975.txt": 309,
+        "フーコー思考集成1980-1988.txt": 53
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 33,
+        "characterOffset": 14547,
+        "matched": "justice"
+      }
+    },
+    {
+      "id": "fou-064",
+      "term": "droit",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 59,
+        "フーコー思考集成1970-1975.txt": 260,
+        "フーコー思考集成1980-1988.txt": 129
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 7,
+        "characterOffset": 528,
+        "matched": "droit"
+      }
+    },
+    {
+      "id": "fou-065",
+      "term": "loi",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 131,
+        "フーコー思考集成1970-1975.txt": 164,
+        "フーコー思考集成1980-1988.txt": 144
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 185,
+        "characterOffset": 81627,
+        "matched": "loi"
+      }
+    },
+    {
+      "id": "fou-066",
+      "term": "souveraineté",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 32,
+        "フーコー思考集成1970-1975.txt": 23,
+        "フーコー思考集成1980-1988.txt": 10
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 447,
+        "characterOffset": 219086,
+        "matched": "souveraineté"
+      }
+    },
+    {
+      "id": "fou-067",
+      "term": "domination",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 34,
+        "フーコー思考集成1980-1988.txt": 60
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 85,
+        "characterOffset": 45748,
+        "matched": "domination"
+      }
+    },
+    {
+      "id": "fou-068",
+      "term": "assujettissement",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 10,
+        "フーコー思考集成1980-1988.txt": 19
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 439,
+        "characterOffset": 213276,
+        "matched": "assujettissement"
+      }
+    },
+    {
+      "id": "fou-069",
+      "term": "résistance",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 6,
+        "フーコー思考集成1970-1975.txt": 29,
+        "フーコー思考集成1980-1988.txt": 28
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 283,
+        "characterOffset": 125943,
+        "matched": "résistance"
+      }
+    },
+    {
+      "id": "fou-070",
+      "term": "lutte",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 11,
+        "フーコー思考集成1970-1975.txt": 211,
+        "フーコー思考集成1980-1988.txt": 77
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 177,
+        "characterOffset": 77297,
+        "matched": "lutte"
+      }
+    },
+    {
+      "id": "fou-071",
+      "term": "stratégie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 1,
+        "フーコー思考集成1970-1975.txt": 39,
+        "フーコー思考集成1980-1988.txt": 39
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 1005,
+        "characterOffset": 481188,
+        "matched": "stratégie"
+      }
+    },
+    {
+      "id": "fou-072",
+      "term": "rapport",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 362,
+        "フーコー思考集成1970-1975.txt": 315,
+        "フーコー思考集成1980-1988.txt": 451
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 29,
+        "characterOffset": 13184,
+        "matched": "rapport"
+      }
+    },
+    {
+      "id": "fou-073",
+      "term": "force",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 53,
+        "フーコー思考集成1970-1975.txt": 152,
+        "フーコー思考集成1980-1988.txt": 68
+      },
+      "reference": {
+        "file": "フーコー思考集成1970-1975.txt",
+        "line": 73,
+        "characterOffset": 37744,
+        "matched": "force"
+      }
+    },
+    {
+      "id": "fou-074",
+      "term": "gouvernement",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 31,
+        "フーコー思考集成1980-1988.txt": 112
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 249,
+        "characterOffset": 75480,
+        "matched": "gouvernement"
+      }
+    },
+    {
+      "id": "fou-075",
+      "term": "gouvernementalité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 0,
+        "フーコー思考集成1980-1988.txt": 6
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1557,
+        "characterOffset": 521827,
+        "matched": "gouvernementalité"
+      }
+    },
+    {
+      "id": "fou-076",
+      "term": "conduite",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 34,
+        "フーコー思考集成1970-1975.txt": 18,
+        "フーコー思考集成1980-1988.txt": 99
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 77,
+        "characterOffset": 19956,
+        "matched": "conduite"
+      }
+    },
+    {
+      "id": "fou-077",
+      "term": "population",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 17,
+        "フーコー思考集成1970-1975.txt": 92,
+        "フーコー思考集成1980-1988.txt": 44
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 363,
+        "characterOffset": 120969,
+        "matched": "population"
+      }
+    },
+    {
+      "id": "fou-078",
+      "term": "sécurité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 4,
+        "フーコー思考集成1970-1975.txt": 5,
+        "フーコー思考集成1980-1988.txt": 54
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 11,
+        "characterOffset": 314,
+        "matched": "sécurité"
+      }
+    },
+    {
+      "id": "fou-079",
+      "term": "territoire",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 1,
+        "フーコー思考集成1970-1975.txt": 4,
+        "フーコー思考集成1980-1988.txt": 20
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1021,
+        "characterOffset": 365574,
+        "matched": "territoire"
+      }
+    },
+    {
+      "id": "fou-080",
+      "term": "État",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 10,
+        "フーコー思考集成1970-1975.txt": 213,
+        "フーコー思考集成1980-1988.txt": 155
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 181,
+        "characterOffset": 50615,
+        "matched": "État"
+      }
+    },
+    {
+      "id": "fou-081",
+      "term": "société",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 92,
+        "フーコー思考集成1970-1975.txt": 543,
+        "フーコー思考集成1980-1988.txt": 285
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 40,
+        "characterOffset": 7177,
+        "matched": "Société"
+      }
+    },
+    {
+      "id": "fou-082",
+      "term": "individu",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 68,
+        "フーコー思考集成1970-1975.txt": 192,
+        "フーコー思考集成1980-1988.txt": 115
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 267,
+        "characterOffset": 78761,
+        "matched": "individu"
+      }
+    },
+    {
+      "id": "fou-083",
+      "term": "subjectivité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 35,
+        "フーコー思考集成1970-1975.txt": 11,
+        "フーコー思考集成1980-1988.txt": 32
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 259,
+        "characterOffset": 77981,
+        "matched": "subjectivité"
+      }
+    },
+    {
+      "id": "fou-084",
+      "term": "subjectivation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 0,
+        "フーコー思考集成1980-1988.txt": 17
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 303,
+        "characterOffset": 93822,
+        "matched": "subjectivation"
+      }
+    },
+    {
+      "id": "fou-085",
+      "term": "objectivation",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 2,
+        "フーコー思考集成1970-1975.txt": 0,
+        "フーコー思考集成1980-1988.txt": 16
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 229,
+        "characterOffset": 68986,
+        "matched": "objectivation"
+      }
+    },
+    {
+      "id": "fou-086",
+      "term": "identité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 53,
+        "フーコー思考集成1970-1975.txt": 47,
+        "フーコー思考集成1980-1988.txt": 62
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 105,
+        "characterOffset": 27429,
+        "matched": "identité"
+      }
+    },
+    {
+      "id": "fou-087",
+      "term": "liberté",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 88,
+        "フーコー思考集成1970-1975.txt": 73,
+        "フーコー思考集成1980-1988.txt": 117
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 20,
+        "characterOffset": 4516,
+        "matched": "liberté"
+      }
+    },
+    {
+      "id": "fou-088",
+      "term": "éthique",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 15,
+        "フーコー思考集成1970-1975.txt": 11,
+        "フーコー思考集成1980-1988.txt": 136
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 315,
+        "characterOffset": 97877,
+        "matched": "éthique"
+      }
+    },
+    {
+      "id": "fou-089",
+      "term": "morale",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 32,
+        "フーコー思考集成1970-1975.txt": 83,
+        "フーコー思考集成1980-1988.txt": 280
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 339,
+        "characterOffset": 108519,
+        "matched": "morale"
+      }
+    },
+    {
+      "id": "fou-090",
+      "term": "soi",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 106,
+        "フーコー思考集成1970-1975.txt": 44,
+        "フーコー思考集成1980-1988.txt": 555
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 145,
+        "characterOffset": 38136,
+        "matched": "soi"
+      }
+    },
+    {
+      "id": "fou-091",
+      "term": "souci de soi",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 0,
+        "フーコー思考集成1980-1988.txt": 64
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 2555,
+        "characterOffset": 868909,
+        "matched": "souci de soi"
+      }
+    },
+    {
+      "id": "fou-092",
+      "term": "technique",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 57,
+        "フーコー思考集成1970-1975.txt": 40,
+        "フーコー思考集成1980-1988.txt": 69
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 77,
+        "characterOffset": 21262,
+        "matched": "technique"
+      }
+    },
+    {
+      "id": "fou-093",
+      "term": "ascèse",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 0,
+        "フーコー思考集成1970-1975.txt": 2,
+        "フーコー思考集成1980-1988.txt": 18
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 1127,
+        "characterOffset": 397239,
+        "matched": "ascèse"
+      }
+    },
+    {
+      "id": "fou-094",
+      "term": "spiritualité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 4,
+        "フーコー思考集成1970-1975.txt": 1,
+        "フーコー思考集成1980-1988.txt": 9
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 201,
+        "characterOffset": 58001,
+        "matched": "spiritualité"
+      }
+    },
+    {
+      "id": "fou-095",
+      "term": "sexualité",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 35,
+        "フーコー思考集成1970-1975.txt": 105,
+        "フーコー思考集成1980-1988.txt": 215
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 181,
+        "characterOffset": 50967,
+        "matched": "sexualité"
+      }
+    },
+    {
+      "id": "fou-096",
+      "term": "plaisir",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 16,
+        "フーコー思考集成1970-1975.txt": 66,
+        "フーコー思考集成1980-1988.txt": 166
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 413,
+        "characterOffset": 144555,
+        "matched": "plaisir"
+      }
+    },
+    {
+      "id": "fou-097",
+      "term": "usage",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 39,
+        "フーコー思考集成1970-1975.txt": 61,
+        "フーコー思考集成1980-1988.txt": 98
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 48,
+        "characterOffset": 10124,
+        "matched": "usage"
+      }
+    },
+    {
+      "id": "fou-098",
+      "term": "vie",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 176,
+        "フーコー思考集成1970-1975.txt": 184,
+        "フーコー思考集成1980-1988.txt": 433
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 15,
+        "characterOffset": 920,
+        "matched": "vie"
+      }
+    },
+    {
+      "id": "fou-099",
+      "term": "mort",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 296,
+        "フーコー思考集成1970-1975.txt": 139,
+        "フーコー思考集成1980-1988.txt": 135
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 24,
+        "characterOffset": 4920,
+        "matched": "mort"
+      }
+    },
+    {
+      "id": "fou-100",
+      "term": "pensée",
+      "occurrences": {
+        "フーコー思考集成1954-1969.txt": 337,
+        "フーコー思考集成1970-1975.txt": 227,
+        "フーコー思考集成1980-1988.txt": 292
+      },
+      "reference": {
+        "file": "フーコー思考集成1980-1988.txt",
+        "line": 71,
+        "characterOffset": 18284,
+        "matched": "pensée"
+      }
+    }
+  ]
+}

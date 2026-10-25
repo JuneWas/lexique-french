@@ -1,0 +1,13 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const data=fs.readFileSync('dist/data.js','utf8')+'\n'+fs.readFileSync('dist/foucault.js','utf8')+'\n'+fs.readFileSync('dist/parts-of-speech.js','utf8');const words=vm.runInNewContext(data+';WORDS');assert.equal(words.length,100);assert.equal(new Set(words.map(w=>w.id)).size,100);for(const w of words)for(const id of w.relatedIds)assert(words.some(x=>x.id===id));fs.writeFileSync('dist/words.json',JSON.stringify({version:1,words},null,2));
+const app=fs.readFileSync('dist/app.js','utf8');const fn=app.slice(app.indexOf('function validate('),app.indexOf('\ntry{let raw'));
+const validate=vm.runInNewContext(fn+';validate',{WORDS:words,LEVELS:['unseen','again','unsure','known']});let good={version:1,records:{'lac-001':{favorite:true,level:'known',reviewCount:2,lastReviewedAt:'2026-10-24T00:00:00Z'}}};assert.equal(validate(JSON.parse(JSON.stringify(good)))['lac-001'].level,'known');for(const bad of [{version:99,records:{}},{version:1,records:[]},{version:1,records:{'lac-999':good.records['lac-001']}},{version:1,records:{'lac-001':{...good.records['lac-001'],reviewCount:-1}}}])assert.throws(()=>validate(bad));console.log('100 unique entries, related links, backup round trip and invalid backup rejection: PASS');
+const helpers=vm.runInNewContext(fs.readFileSync('dist/custom.js','utf8')+';({validateCustom,materialize})');
+const added={id:'usr-12345678',termFr:'parole',termJa:'語り',shortDefinition:'<b>文字として表示</b>',explanation:'説明',speechText:'parole',sourceNote:'本 p.1'};
+const custom=helpers.validateCustom([added]);const vocab=[...words,...custom.map(helpers.materialize)];
+const backup={version:2,customWords:custom,records:{'usr-12345678':{favorite:true,level:'unsure',reviewCount:1,lastReviewedAt:null}}};
+const restored=JSON.parse(JSON.stringify(backup));assert.equal(helpers.validateCustom(restored.customWords)[0].termJa,'語り');assert.equal(validate(restored,vocab)['usr-12345678'].level,'unsure');
+for(const bad of [[{...added,id:'lac-001'}],[{...added,termFr:' '}],[added,added],[{...added,termJa:12}],[{...added,explanation:'x'.repeat(5001)}]])assert.throws(()=>helpers.validateCustom(bad));
+assert.throws(()=>validate(backup,words));console.log('Custom vocabulary validation, v2 round trip and unknown-ID rejection: PASS');
+
+for(const w of words){assert(w.senses.length);for(const s of w.senses){assert(['名詞','動詞','形容詞','代名詞','名詞句'].includes(s.pos));assert(s.meaning);}}assert.equal(words.find(w=>w.id==='fou-024').senses.length,2);assert.equal(words.find(w=>w.id==='fou-090').senses[0].pos,'代名詞');console.log('100 entries: part-of-speech labels and multi-sense words PASS');
