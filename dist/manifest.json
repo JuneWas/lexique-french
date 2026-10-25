@@ -1,1 +1,1 @@
-{"name": "Lexique · 思想のための仏語単語帳", "short_name": "Lexique", "start_url": "/", "display": "standalone", "background_color": "#ffffff", "theme_color": "#b50055", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}
+{"name": "Lexique · 思想のための仏語単語帳", "short_name": "Lexique", "start_url": "./", "display": "standalone", "background_color": "#ffffff", "theme_color": "#b50055", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}

@@ -96,3 +96,18 @@ node check.cjs
 
 変更・追加ファイル一覧は `CHANGES.md`、実施した動作確認と未実施の範囲は `TEST_RESULTS.md` を参照してください。
 `.openai/hosting.json` は既存サイトの設定です。別サイトへ移す場合は元プロジェクトのIDをそのまま再利用しないでください。
+
+## GitHub Pagesへの公開
+
+リポジトリの **Settings → Pages → Build and deployment → Source** を
+**GitHub Actions** に設定してください。
+`.github/workflows/pages.yml` は `main` へのpush時に既存テストを実行し、
+成功した場合に `dist` をGitHub Pagesへ公開します。
+Actions画面の「Deploy LEXIQUE to GitHub Pages」から、`main` を選んで
+「Run workflow」で手動公開することもできます。
+
+標準の公開URLは https://junewas.github.io/lexique-french/ です。
+実際の公開先はActionsのdeployジョブの環境リンクで確認できます。
+ホーム画面からもリポジトリ配下のURLを開けるよう、manifestのstart_urlは相対パスです。
+以前のサイトの学習記録はURL変更では移行されません。バックアップがある場合は
+新サイトの設定から読み込んでください。
