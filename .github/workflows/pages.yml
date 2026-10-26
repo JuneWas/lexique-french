@@ -31,6 +31,7 @@ jobs:
           node tests/v13.cjs
           node tests/integration.cjs
           node tests/bulk-speech.cjs
+          node tests/examples.cjs
           node check.cjs
 
       - name: Configure Pages

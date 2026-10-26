@@ -24,3 +24,29 @@ button:disabled{opacity:.45;cursor:default}.course-switch{display:flex;align-ite
 .all-answers-toolbar{margin:0 0 16px}.all-answers-toolbar button{width:100%;white-space:normal}
 
 .bulk-speech{border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:18px}.bulk-speech h2{margin-top:0}.bulk-speech select{width:100%}.bulk-speech .actions{margin-top:14px}.bulk-speech .actions button{font-size:13px}.bulk-speech p{margin-bottom:0;font-size:13px}
+
+/* Example sentences stay inside the answer so hiding answers hides translations too. */
+.word{grid-template-columns:minmax(0,32%) minmax(0,68%)}
+.word-translation{min-width:0}
+.word-example{margin-top:12px;text-align:left;letter-spacing:normal}
+.example-label{display:inline-block;background:#fce7f0;color:var(--pink);border-radius:8px;padding:1px 8px;font-size:11px;line-height:1.7}
+.word-example .example-fr{font:20px/1.5 Georgia,serif;color:var(--ink);margin:5px 0 3px;white-space:normal;overflow-wrap:anywhere}
+.word-example .example-ja{font-size:13px;line-height:1.7;color:#68636a;margin:0;white-space:normal;overflow-wrap:anywhere}
+.word-translation .answer-toggle[aria-expanded="true"]{width:auto;min-height:44px;min-width:44px;margin:8px 0 0 auto;padding:8px;font-size:11px;line-height:1.4;background:transparent;color:#777;border:0;border-radius:6px;text-decoration:underline;text-underline-offset:3px}
+.word-translation .answer-toggle[aria-expanded="true"]:hover{background:#fceaf2}
+.card .word-example{width:100%}
+@media(max-width:600px){.word-example .example-fr{font-size:18px}.word-example .example-ja{font-size:12px}.word-translation{padding-left:12px;padding-right:4px}}
+.word-original{background:white;border-right:1px solid var(--line)}
+.word{border-top-color:var(--line)}
+.word:last-child{border-bottom-color:var(--line)}
+.word-example{font-weight:400}
+.word-translation .answer-text{color:var(--ink)}
+.bulk-speech{background:#fff7fa;border-color:#f5d5e4}
+.bulk-speech h2{color:var(--pink);font-weight:700}
+
+.bulk-options{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:start}
+.bulk-options label{margin:8px 0 4px;font-size:12px}
+.bulk-options select{font-size:12px;padding:10px 6px;min-height:44px}
+.bulk-options input{height:44px;margin:0}
+.bulk-speech .actions button{padding:8px 4px;min-height:44px}
+.bulk-speech .speech-help{font-size:11px;padding:8px 0 0;border:0;color:var(--muted)}

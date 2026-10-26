@@ -2,9 +2,12 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const disk=new Map(),nodes=new Map();let fail=false;
 const legacy={records:{'lac-012':{favorite:true,level:'known',reviewCount:3,lastReviewedAt:null}},customWords:[],settings:{rate:.9,voice:'fr-test'}};disk.set('lacan.lexique.v1',JSON.stringify(legacy));
 function context(){const node=()=>({textContent:'',style:{},classList:{toggle(){}},setAttribute(){},value:''});const ctx={console,Date,JSON,Number,Math,Set,Map,Blob,setTimeout:()=>0,clearTimeout(){},location:{hash:'#dictionary'},confirm:()=>true,URL:{createObjectURL:()=>'',revokeObjectURL(){}},localStorage:{getItem:k=>disk.get(k)||null,setItem:(k,v)=>{if(fail)throw Error('quota');disk.set(k,v);},removeItem:k=>disk.delete(k)},document:{querySelector:s=>{if(!nodes.has(s))nodes.set(s,node());return nodes.get(s)},querySelectorAll:()=>[],addEventListener(){}},window:{addEventListener(){},scrollTo(){}},SpeechSynthesisUtterance:function(text){this.text=text},speechSynthesis:{cancel(){},getVoices:()=>[{lang:'fr-FR',voiceURI:'fr-test'}],speak:u=>ctx.spoken=u}};ctx.window.speechSynthesis=ctx.speechSynthesis;ctx.speechSynthesis.addEventListener=()=>{};vm.createContext(ctx);
- for(const f of ['data.js','foucault.js','parts-of-speech.js','core1000.js','core-adapter.js','learning-engine.js','custom.js','app.js','bulk-speech.js','learning-ui.js']){let code=fs.readFileSync(root+f,'utf8');if(f==='learning-ui.js')code=code.replace("render();if(learningLoadError)","if(learningLoadError)");vm.runInContext(code,ctx);}
+ for(const f of ['data.js','foucault.js','parts-of-speech.js','core1000.js','core-adapter.js','learning-engine.js','custom.js','examples.js','app.js','bulk-speech.js','learning-ui.js']){let code=fs.readFileSync(root+f,'utf8');if(f==='learning-ui.js')code=code.replace("render();if(learningLoadError)","if(learningLoadError)");vm.runInContext(code,ctx);}
  vm.runInContext('render=()=>{};',ctx);return ctx;}
 (async()=>{let c=context();const run=s=>vm.runInContext(s,c);
+ assert.match(run("meaningHtml(CORE_WORDS[0])"),/Je parle français\./);
+ assert.match(run("meaningHtml(CORE_WORDS[0])"),/私はフランス語を話します。/);
+ assert.equal(run("exampleHtml({id:'usr-example'})"),'');
  assert.equal(run("record('lac-012').favorite"),true);assert.equal(run("filtered().length"),1000);
  assert.equal(run("q='私（主語）';filtered().length"),1);assert.equal(run("q='';zoneFilter='5';filtered().length"),200);assert.equal(run("zoneFilter='';posFilter='verb';filtered().length"),270);assert.equal(run("posFilter='';learning.course='thought';q='desir';filtered()[0].id"),'lac-012');
  run("sound(CORE_WORDS[0])");assert.equal(c.spoken.text,'je');assert.equal(c.spoken.lang,'fr-FR');assert.equal(c.spoken.rate,.9);
