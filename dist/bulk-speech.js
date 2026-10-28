@@ -4,13 +4,26 @@ function bulkGap(){const gap=state.settings.wordGap;return Number.isFinite(gap)&
 function clearBulkTimer(){if(bulkTimer!==null){clearTimeout(bulkTimer);bulkTimer=null;}}
 function bulkSpeechPanel(){
  if(learning.course!=='core')return '';
- return `<section class="bulk-speech" aria-label="200語の連続読み上げ"><h2>200語をまとめて聞く</h2><div class="bulk-options"><div><label for="speech-zone">読み上げるZone</label><select id="speech-zone">${[1,2,3,4,5].map(z=>`<option value="${z}" ${bulkZone==z?'selected':''}>Zone ${z}（${(z-1)*200+1}〜${z*200}語）</option>`).join('')}</select></div><div><label for="bulk-rate">速度 <span id="bulk-rate-value">${state.settings.rate.toFixed(2)}</span>倍</label><input id="bulk-rate" type="range" min="0.6" max="1.2" step="0.05" value="${state.settings.rate}"></div></div><label for="bulk-gap">単語の間隔 <span id="bulk-gap-value">${bulkGap().toFixed(1)}</span>秒</label><input id="bulk-gap" type="range" min="0" max="5" step="0.5" value="${bulkGap()}" aria-describedby="bulk-gap-help"><p id="bulk-gap-help" class="notes">読み終わってから次の単語までの待ち時間（0〜5秒）。変更は次の待ち時間から反映されます。</p><div class="actions"><button id="bulk-start" class="primary">200語を読む</button><button id="bulk-pause" disabled>一時停止</button><button id="bulk-stop" disabled>停止</button></div><p id="bulk-status" role="status" aria-live="polite">選んだZoneのフランス語を学習順に読みます。</p><details class="speech-help"><summary>読み上げについて</summary><p class="notes">検索・品詞の絞り込みに関係なく200語を読みます。速度変更は次の単語から反映されます。画面を開いたままお使いください。</p></details></section>`;
+ return `<section class="bulk-speech" aria-label="200語の連続読み上げ"><h2>200語をまとめて聞く</h2><div class="bulk-options"><div><label for="speech-zone">読み上げるZone</label><select id="speech-zone">${[1,2,3,4,5].map(z=>`<option value="${z}" ${bulkZone==z?'selected':''}>Zone ${z}（${(z-1)*200+1}〜${z*200}語）</option>`).join('')}</select></div><div><label for="bulk-rate">速度 <span id="bulk-rate-value">${state.settings.rate.toFixed(2)}</span>倍</label><input id="bulk-rate" type="range" min="0.6" max="1.2" step="0.05" value="${state.settings.rate}"></div></div><label for="bulk-gap">単語の間隔 <span id="bulk-gap-value">${bulkGap().toFixed(1)}</span>秒</label><input id="bulk-gap" type="range" min="0" max="5" step="0.5" value="${bulkGap()}" aria-describedby="bulk-gap-help"><p id="bulk-gap-help" class="notes">読み終わってから次の単語までの待ち時間（0〜5秒）。変更は次の待ち時間から反映されます。</p><div class="actions"><button id="bulk-start" class="primary">200語を読む</button><button id="bulk-pause" disabled>一時停止</button><button id="bulk-stop" disabled>停止</button></div><p id="bulk-status" role="status" aria-live="polite">選んだZoneのフランス語を学習順に読みます。</p><details class="speech-help"><summary>読み上げについて</summary><p class="notes">検索・品詞の絞り込みに関係なく200語を読みます。速度変更は次の単語から反映されます。画面を開いたままお使いください。</p></details></section><button id="bulk-floating-pause" class="bulk-floating-pause" hidden aria-label="連続読み上げを一時停止">一時停止</button>`;
+}
+function updateFloatingPause(){
+ const floating=$('#bulk-floating-pause'),original=$('#bulk-pause');
+ if(!floating||!original||typeof original.getBoundingClientRect!=='function')return;
+ const nav=document.querySelector('nav');
+ const navTop=nav?nav.getBoundingClientRect().top:window.innerHeight;
+ const rect=original.getBoundingClientRect();
+ const visible=rect.top>=0&&rect.bottom<=Math.min(navTop,window.innerHeight);
+ floating.hidden=!bulkSpeech||visible;
+ floating.textContent=bulkSpeech?.paused?'再開':'一時停止';
+ floating.setAttribute('aria-label',bulkSpeech?.paused?'連続読み上げを再開':'連続読み上げを一時停止');
+ floating.style.bottom=`${Math.max(0,window.innerHeight-navTop)+10}px`;
 }
 function updateBulkSpeech(message){
  const status=$('#bulk-status');if(status)status.textContent=message;
  const pause=$('#bulk-pause'),stop=$('#bulk-stop');
  if(pause){pause.disabled=!bulkSpeech;pause.textContent=bulkSpeech?.paused?'再開':'一時停止';}
  if(stop)stop.disabled=!bulkSpeech;
+ updateFloatingPause();
 }
 function stopBulkSpeech(){
  clearBulkTimer();
@@ -64,7 +77,7 @@ function toggleBulkPause(){
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.id==='bulk-start')startBulkSpeech();
- if(b.id==='bulk-pause')toggleBulkPause();
+ if(b.id==='bulk-pause'||b.id==='bulk-floating-pause')toggleBulkPause();
  if(b.id==='bulk-stop')stopSound();
 });
 document.addEventListener('change',e=>{
@@ -80,3 +93,6 @@ document.addEventListener('input',e=>{
  state.settings.rate=rate;$('#bulk-rate-value').textContent=rate.toFixed(2);save();
 });
 window.addEventListener('pagehide',()=>stopSound());
+
+window.addEventListener('scroll',updateFloatingPause,{passive:true});
+window.addEventListener('resize',updateFloatingPause);

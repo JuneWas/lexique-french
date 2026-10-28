@@ -50,3 +50,5 @@ button:disabled{opacity:.45;cursor:default}.course-switch{display:flex;align-ite
 .bulk-options input{height:44px;margin:0}
 .bulk-speech .actions button{padding:8px 4px;min-height:44px}
 .bulk-speech .speech-help{font-size:11px;padding:8px 0 0;border:0;color:var(--muted)}
+
+.bulk-floating-pause{position:fixed;right:max(12px,env(safe-area-inset-right));bottom:90px;z-index:20;min-width:96px;min-height:44px;padding:8px 16px;border:1px solid var(--pink);border-radius:24px;background:#fff;color:var(--pink);font-size:13px;font-weight:600;box-shadow:0 2px 10px #40233126}.bulk-floating-pause:hover{background:#fceaf2}
