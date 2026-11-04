@@ -11,6 +11,31 @@
 
 全1100語にフランス語の例文1文と日本語訳を収録しています。学習記録は利用中のブラウザに保存されます。
 
+## 開発を再開する方へ
+
+会話履歴がなくても、まずこのREADME、[AGENTS.md](AGENTS.md)、[PROGRESS.md](PROGRESS.md)を読んでください。
+
+- **README.md**：アプリの概要、使い方、構成、起動・テスト・公開手順。
+- **AGENTS.md**：開発方針、コーディング規約、テスト方針、引き継ぎ情報の更新ルール。
+- **PROGRESS.md**：実装済み・未実装の機能、既知の問題と制約、検証記録、次の作業。
+
+作業開始時に`git status --short`と`git log -5 --oneline`を確認してください。機能変更、不具合の発見、作業中断などの節目でPROGRESS.mdを更新し、コードと一緒にコミットします。
+
+## 技術構成
+
+| 項目 | 構成 |
+| --- | --- |
+| フロントエンド | HTML・CSS・素のJavaScript。フレームワーク・npm依存なし |
+| 配信対象 | `dist/`。アプリソースと生成された教材データを含む |
+| 画面・学習処理 | `app.js`、`learning-ui.js`、`learning-engine.js`。通常のscriptタグで順番に読み込み |
+| 音声 | ブラウザのWeb Speech API（`speechSynthesis`）、`bulk-speech.js` |
+| データ保存 | ブラウザのlocalStorageとJSONバックアップ。サーバーDBなし |
+| 教材の生成 | Python 3スクリプト、XLSX原本、例文TSV |
+| 起動 | Python 3のHTTPサーバー。アプリのビルドは不要 |
+| テスト・公開 | Node.js 22、GitHub Actions、GitHub Pages |
+
+ローカル起動とテストのコマンドは後半に記載しています。
+
 ## 使い始める
 
 1. [公開サイト](https://junewas.github.io/lexique-french/)を開き、上部の「教材」を選びます。
